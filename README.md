@@ -4,22 +4,22 @@ Chatbot desenvolvido como projeto da AP3 da Faculdade ISL Wyden
 
 O Chatbot tem como objetivo realizar atendimento para resolver dúvidas e problemas frequentes dos alunos.
 
-Início de interação com o Chatbot:
+Início de interação com o Chatbot.
 <img src="/Public/Images/Imagem1.png" alt="Início">
 
-Opções de atendimento:
+Opções de atendimento.
 <img src="/Public/Images/Imagem2.png" alt="Opções">
 
-Primeira escolha de atendimento:
+Primeira escolha de atendimento.
 <img src="/Public/Images/Imagem3.png" alt="1">
 
-Segunda escolha de atendimento:
+Segunda escolha de atendimento.
 <img src="/Public/Images/Imagem4.png" alt="2">
 
-Terceira escolha de atendimento:
+Terceira escolha de atendimento.
 <img src="/Public/Images/Imagem5.png" alt="3">
 
-Quarta escolha de atendimento:
+Quarta escolha de atendimento.
 <img src="/Public/Images/Imagem6.png" alt="4">
 
 Para demonstração, acessar o link abaixo, colocar como matrícula o número 100 e cadastrar um e-mail.
