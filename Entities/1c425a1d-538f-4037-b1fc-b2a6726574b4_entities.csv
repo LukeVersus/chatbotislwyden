@@ -1,0 +1,35 @@
+alunos,Visitante,100
+alunos,Lucas Veçosa,1921710140
+alunos,Helvio Siqueira,1921710300
+celular,celular,/(\d{2}) (\d{5})-(\d{4})/,/(\d{2})(\d{5})(\d{4})/
+ContactInfo,telefone,/((\d{2})) (\d{4})-(\d{4})/
+curso,engenharia,engenharia,pedreiraria,eng
+curso,administracao,administracao,adm,4
+curso,gestao de ti,gestao de ti,gti
+curso,sistemas de informacao,sistemas de informacao,SI,sistemas
+email,email_sintax,//^[a-z0-9.]+@[a-z0-9]+\.[a-z]+\.([a-z]+)?$/i/,"/^([\w.-]+)@([\w-]+)((.(\w){2,3})+)$/"
+email_alunos,helviovilhena@bol.com.br,1921710300
+email_alunos,lvcramos@hotmail.com,1921710140
+email_institucional,matricula@faculdadeisl.com.br
+email_teste,helviovilhena@bol.com.br
+matricula,PROUNI,"prouni, pro uni"
+matricula,FIES,fies
+matricula,PRAVALER,"PRA VALER, pravaler, pra valer"
+nao,nao,not,nope,n
+numero_matricula,matricula,/(\d{10})/
+opsADM,op3,agendar,agenda,agendamento,marcar,reuniao,reunião,"programar, combinar, estipular, definir, estabelecer, fixar"
+opsADM,op1,1,um,contato,telefone,falar,coordenador,telefonar,"contatar, contactar",celular
+opsADM,op2,2,dois,duvidas,perguntas,questionar,pergunta,duvida
+opsEngenharia,op3,agendar,agenda,marcar,reuniao,reunião,agendamento,"programar, combinar, estipular, definir, estabelecer, fixar"
+opsEngenharia,op1,1,um,contato,telefone,falar,coordenador,telefonar,"contatar, contactar",celular
+opsEngenharia,op2,2,dois,duvidas,perguntas,questionar,duvida,pergunta
+opsGTI,op1,1,um,contato,telefone,falar,coordenador,telefonar,"contatar, contactar",celular
+opsGTI,op3,agendar,agenda,agendamento,reuniao,reunião,"programar, combinar, estipular, definir, estabelecer, fixar"
+opsGTI,op2,2,dois,duvidas,perguntas,questionar,duvida,pergunta
+opsSI,op2,2,dois,duvidas,duvida,pergunta,perguntas,questionar
+opsSI,op3,agenda,agendar,agendamento,reuniao,reunião,"programar, combinar, estipular, definir, estabelecer, fixar"
+opsSI,op1,1,um,contato,telefone,celular,falar,coordenador,"contatar, contactar"
+recebe_texto,entrada,/<? input.text ?>/
+senha,retornar,"voltar, menu, retornar, volta, retorno"
+senha,atendente humano,"atendente, atendimento, contato"
+sim,sim,yes,s

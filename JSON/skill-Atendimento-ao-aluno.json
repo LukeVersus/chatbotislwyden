@@ -1,0 +1,4398 @@
+{
+  "intents": [
+    {
+      "intent": "acessoPortal",
+      "examples": [
+        {
+          "text": "acesso ao portal"
+        },
+        {
+          "text": "portal"
+        },
+        {
+          "text": "totvs"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "engenhariaOp1",
+      "examples": [
+        {
+          "text": "1"
+        },
+        {
+          "text": "Um"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "engenhariaOp2",
+      "examples": [
+        {
+          "text": "2"
+        },
+        {
+          "text": "Dois"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fim",
+      "examples": [
+        {
+          "text": "até logo"
+        },
+        {
+          "text": "até mais"
+        },
+        {
+          "text": "confirmado"
+        },
+        {
+          "text": "confirmo"
+        },
+        {
+          "text": "fim"
+        },
+        {
+          "text": "finalizar"
+        },
+        {
+          "text": "isso"
+        },
+        {
+          "text": "muito obrigado"
+        },
+        {
+          "text": "obrigado"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "resolvido"
+        },
+        {
+          "text": "só isso"
+        },
+        {
+          "text": "tchau"
+        }
+      ],
+      "description": "Finalizar atendimento."
+    },
+    {
+      "intent": "historico_escolar",
+      "examples": [
+        {
+          "text": "historico"
+        },
+        {
+          "text": "historico escolar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "InformaçõesAcesso",
+      "examples": [
+        {
+          "text": "1"
+        },
+        {
+          "text": "acesso"
+        },
+        {
+          "text": "one"
+        },
+        {
+          "text": "um"
+        }
+      ],
+      "description": "Uma intenção para fornecer informações sobre acesso"
+    },
+    {
+      "intent": "matriculaOp1",
+      "examples": [
+        {
+          "text": "1"
+        },
+        {
+          "text": "fies"
+        },
+        {
+          "text": "one"
+        },
+        {
+          "text": "um"
+        }
+      ],
+      "description": "FIES"
+    },
+    {
+      "intent": "matriculaOp2",
+      "examples": [
+        {
+          "text": "2"
+        },
+        {
+          "text": "dois"
+        },
+        {
+          "text": "prouni"
+        },
+        {
+          "text": "pro uni"
+        },
+        {
+          "text": "two"
+        }
+      ],
+      "description": "PROUNI"
+    },
+    {
+      "intent": "matriculaOp3",
+      "examples": [
+        {
+          "text": "paravaler"
+        },
+        {
+          "text": "para valer"
+        },
+        {
+          "text": "pravaler"
+        },
+        {
+          "text": "pra valer"
+        },
+        {
+          "text": "three"
+        },
+        {
+          "text": "tres"
+        },
+        {
+          "text": "três"
+        }
+      ],
+      "description": "PRA VALER"
+    },
+    {
+      "intent": "nao",
+      "examples": [
+        {
+          "text": "n"
+        },
+        {
+          "text": "nao"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "not"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "oi",
+      "examples": [
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "Oba"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Oie"
+        },
+        {
+          "text": "Ola"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "si"
+        }
+      ],
+      "description": "Uma intenção para identificar a saudação do usuário."
+    },
+    {
+      "intent": "Opção1",
+      "examples": [
+        {
+          "text": "1"
+        },
+        {
+          "text": "One"
+        },
+        {
+          "text": "Um"
+        }
+      ],
+      "description": "Intenção para reconhecer que o usuário quer saber como acessar o seu portal (OP 1)"
+    },
+    {
+      "intent": "Opção2",
+      "examples": [
+        {
+          "text": "2"
+        },
+        {
+          "text": "dois"
+        },
+        {
+          "text": "two"
+        }
+      ],
+      "description": "Intenção para reconhecer que o usuário quer atualizar seu boleto."
+    },
+    {
+      "intent": "opção3Coordenação",
+      "examples": [
+        {
+          "text": "3"
+        },
+        {
+          "text": "coordenacao"
+        },
+        {
+          "text": "coordenação"
+        },
+        {
+          "text": "tres"
+        }
+      ],
+      "description": "Intenção para entender que o usuário quer saber informações sobre coordenação."
+    },
+    {
+      "intent": "opção4Matricula",
+      "examples": [
+        {
+          "text": "4"
+        },
+        {
+          "text": "four"
+        },
+        {
+          "text": "matricula"
+        },
+        {
+          "text": "Quatro"
+        }
+      ],
+      "description": "Intenção para entender que o usuário quer ter informações sobre matricula."
+    },
+    {
+      "intent": "opção5OutrosContatos",
+      "examples": [
+        {
+          "text": "5"
+        },
+        {
+          "text": "cinco"
+        },
+        {
+          "text": "contatos"
+        },
+        {
+          "text": "five"
+        },
+        {
+          "text": "outros contatos"
+        }
+      ],
+      "description": "Intenção para reconhecer que o usuário quer saber outros contatos telefônicos (OP 11)"
+    },
+    {
+      "intent": "opçãoAulasGravadas",
+      "examples": [
+        {
+          "text": "aulas gravadas"
+        },
+        {
+          "text": "gravações"
+        },
+        {
+          "text": "gravadas"
+        }
+      ],
+      "description": "Intenção para reconhecer que o usuário quer saber como tem acesso as aulas gravadas."
+    },
+    {
+      "intent": "OpçãoBoletos",
+      "examples": [
+        {
+          "text": "boleto"
+        },
+        {
+          "text": "boletos"
+        },
+        {
+          "text": "pagamento"
+        }
+      ],
+      "description": "Intenção para entender que o usuário quer saber como tem acesso ao boleto."
+    },
+    {
+      "intent": "opçãoCalendario",
+      "examples": [
+        {
+          "text": "calendario"
+        },
+        {
+          "text": "cronograma"
+        },
+        {
+          "text": "horarios"
+        }
+      ],
+      "description": "Intenção para entender que o usuário quer ter acesso ao calendário acadêmico."
+    },
+    {
+      "intent": "opçãoConversarAtendente",
+      "examples": [
+        {
+          "text": "6"
+        },
+        {
+          "text": "contatos"
+        },
+        {
+          "text": "outros contatos"
+        },
+        {
+          "text": "seis"
+        },
+        {
+          "text": "six"
+        }
+      ],
+      "description": "Intenção para reconhecer que o usuário quer conversar diretamente com atendente humano (OP 12)"
+    },
+    {
+      "intent": "opçãoMateriaisAula",
+      "examples": [
+        {
+          "text": "arquivos"
+        },
+        {
+          "text": "atividades"
+        },
+        {
+          "text": "materiais"
+        },
+        {
+          "text": "materiais de aula"
+        }
+      ],
+      "description": "Intenção para reconhecer que o usuário quer saber como tem acesso ao material da aula."
+    },
+    {
+      "intent": "OpçãoSenha",
+      "examples": [
+        {
+          "text": "credencial"
+        },
+        {
+          "text": "password"
+        },
+        {
+          "text": "senha"
+        }
+      ],
+      "description": "Uma intenção para reconhecer que o aluno esqueceu a senha."
+    },
+    {
+      "intent": "opçãoTeams",
+      "examples": [
+        {
+          "text": "microsoft teams"
+        },
+        {
+          "text": "teams"
+        },
+        {
+          "text": "transmisao"
+        }
+      ],
+      "description": "Intenção para reconhecer que o usuário que saber como acessa o Teams."
+    },
+    {
+      "intent": "senhaOp1",
+      "examples": [
+        {
+          "text": "atendente"
+        },
+        {
+          "text": "atendente humano"
+        },
+        {
+          "text": "atendimento"
+        },
+        {
+          "text": "contato"
+        },
+        {
+          "text": "conversar"
+        },
+        {
+          "text": "falar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "senhaOp2",
+      "examples": [
+        {
+          "text": "back"
+        },
+        {
+          "text": "inicio"
+        },
+        {
+          "text": "menu"
+        },
+        {
+          "text": "retornar"
+        },
+        {
+          "text": "retorno"
+        },
+        {
+          "text": "volta"
+        },
+        {
+          "text": "voltar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "sim",
+      "examples": [
+        {
+          "text": "s"
+        },
+        {
+          "text": "sim"
+        },
+        {
+          "text": "yes"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "alunos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Helvio Siqueira",
+          "synonyms": [
+            "1921710300"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lucas Veçosa",
+          "synonyms": [
+            "1921710140"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Visitante",
+          "synonyms": [
+            "100"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "celular",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "celular",
+          "patterns": [
+            "(\\d{2}) (\\d{5})-(\\d{4})",
+            "(\\d{2})(\\d{5})(\\d{4})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ContactInfo",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "telefone",
+          "patterns": [
+            "((\\d{2})) (\\d{4})-(\\d{4})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "curso",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "administracao",
+          "synonyms": [
+            "4",
+            "adm",
+            "administracao"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "engenharia",
+          "synonyms": [
+            "eng",
+            "engenharia",
+            "pedreiraria"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gestao de ti",
+          "synonyms": [
+            "gestao de ti",
+            "gti"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sistemas de informacao",
+          "synonyms": [
+            "SI",
+            "sistemas",
+            "sistemas de informacao"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "email_sintax",
+          "patterns": [
+            "/^[a-z0-9.]+@[a-z0-9]+\\.[a-z]+\\.([a-z]+)?$/i",
+            "^([\\w.-]+)@([\\w-]+)((.(\\w){2,3})+)$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email_alunos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "helviovilhena@bol.com.br",
+          "synonyms": [
+            "1921710300"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lvcramos@hotmail.com",
+          "synonyms": [
+            "1921710140"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email_institucional",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "matricula@faculdadeisl.com.br",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email_teste",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "helviovilhena@bol.com.br",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "matricula",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "FIES",
+          "synonyms": [
+            "fies"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PRAVALER",
+          "synonyms": [
+            "PRA VALER, pravaler, pra valer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PROUNI",
+          "synonyms": [
+            "prouni, pro uni"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nao",
+          "synonyms": [
+            "n",
+            "nope",
+            "not"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "numero_matricula",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "matricula",
+          "patterns": [
+            "(\\d{10})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "opsADM",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "op1",
+          "synonyms": [
+            "1",
+            "celular",
+            "contatar, contactar",
+            "contato",
+            "coordenador",
+            "falar",
+            "telefonar",
+            "telefone",
+            "um"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "op2",
+          "synonyms": [
+            "2",
+            "dois",
+            "duvida",
+            "duvidas",
+            "pergunta",
+            "perguntas",
+            "questionar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "op3",
+          "synonyms": [
+            "agenda",
+            "agendamento",
+            "agendar",
+            "marcar",
+            "programar, combinar, estipular, definir, estabelecer, fixar",
+            "reuniao",
+            "reunião"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "opsEngenharia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "op1",
+          "synonyms": [
+            "1",
+            "celular",
+            "contatar, contactar",
+            "contato",
+            "coordenador",
+            "falar",
+            "telefonar",
+            "telefone",
+            "um"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "op2",
+          "synonyms": [
+            "2",
+            "dois",
+            "duvida",
+            "duvidas",
+            "pergunta",
+            "perguntas",
+            "questionar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "op3",
+          "synonyms": [
+            "agenda",
+            "agendamento",
+            "agendar",
+            "marcar",
+            "programar, combinar, estipular, definir, estabelecer, fixar",
+            "reuniao",
+            "reunião"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "opsGTI",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "op1",
+          "synonyms": [
+            "1",
+            "celular",
+            "contatar, contactar",
+            "contato",
+            "coordenador",
+            "falar",
+            "telefonar",
+            "telefone",
+            "um"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "op2",
+          "synonyms": [
+            "2",
+            "dois",
+            "duvida",
+            "duvidas",
+            "pergunta",
+            "perguntas",
+            "questionar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "op3",
+          "synonyms": [
+            "agenda",
+            "agendamento",
+            "agendar",
+            "programar, combinar, estipular, definir, estabelecer, fixar",
+            "reuniao",
+            "reunião"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "opsSI",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "op1",
+          "synonyms": [
+            "1",
+            "celular",
+            "contatar, contactar",
+            "contato",
+            "coordenador",
+            "falar",
+            "telefone",
+            "um"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "op2",
+          "synonyms": [
+            "2",
+            "dois",
+            "duvida",
+            "duvidas",
+            "pergunta",
+            "perguntas",
+            "questionar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "op3",
+          "synonyms": [
+            "agenda",
+            "agendamento",
+            "agendar",
+            "programar, combinar, estipular, definir, estabelecer, fixar",
+            "reuniao",
+            "reunião"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "recebe_texto",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "entrada",
+          "patterns": [
+            "<? input.text ?>"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "senha",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "atendente humano",
+          "synonyms": [
+            "atendente, atendimento, contato"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "retornar",
+          "synonyms": [
+            "voltar, menu, retornar, volta, retorno"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "s",
+            "yes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.appdomain.cloud/api/v1/web/1921710300%40faculdadeisl.com.br_dev/default/enviar_email.json",
+      "name": "main_webhook",
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "Basic Y2MzMjRhOGUtN2I1MS00MzU5LWJkOGUtODU0YmQwYWU4MmQ2OmpudkpMZlpxU0hOaklsbVQwaWtqczZNZDJXRWNPRUZFUmhjTDkyalJNY0FTdHdZZmZxUkIwYldFZU5VSnNOZjc="
+        }
+      ]
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, mas não agendamos aos sábados."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1606000905759",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "$date.reformatDateTime(\"EEEEEE\") == 'Saturday'",
+      "event_name": "filled",
+      "dialog_node": "handler_10_1606001162570",
+      "previous_sibling": "handler_5_1606000905761"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1606480077933",
+      "context": {
+        "sim": "@sim"
+      },
+      "conditions": "@sim",
+      "event_name": "input",
+      "dialog_node": "handler_10_1606480077933"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1606006004681",
+      "context": {
+        "time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_11_1606006004681"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1606480077933",
+      "event_name": "focus",
+      "dialog_node": "handler_11_1606480077933",
+      "previous_sibling": "handler_10_1606480077933"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1605983465278",
+      "context": {
+        "email_sintax": "@email.literal"
+      },
+      "conditions": "@email.literal",
+      "event_name": "input",
+      "dialog_node": "handler_1_1605983465298"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo certo. Vamos para o horário marcado. Os horários para atendimento são das 08:00 horas às 11:00 horas. Ou das 14:00 horas às 19:00 horas. Como ficaria melhor pra você?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_10_1606006004681",
+      "event_name": "focus",
+      "dialog_node": "handler_12_1606006004681",
+      "previous_sibling": "handler_11_1606006004681"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_13_1606006004681",
+      "context": {
+        "celular": "@celular.literal"
+      },
+      "conditions": "@celular.literal",
+      "event_name": "input",
+      "dialog_node": "handler_14_1606006004681"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estamos quase finalizando. Precisarei de um número celular para notificação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_13_1606006004681",
+      "context": {
+        "celular": "<?@celular.literal?>"
+      },
+      "event_name": "focus",
+      "dialog_node": "handler_15_1606006004681",
+      "previous_sibling": "handler_14_1606006004681"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_23_1606006103013",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_24_1606006103013"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Vou precisar de uma data. Em que dia você tem disponibilidade?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_23_1606006103013",
+      "event_name": "focus",
+      "dialog_node": "handler_25_1606006103013",
+      "previous_sibling": "handler_24_1606006103013"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, mas não agendamos aos sábados."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_23_1606006103013",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "$date.reformatDateTime(\"EEEEEE\") == 'Saturday'",
+      "event_name": "filled",
+      "dialog_node": "handler_26_1606006103013",
+      "previous_sibling": "handler_25_1606006103013"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, mas não agendamos aos domingos."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_23_1606006103013",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "$date.reformatDateTime(\"EEEEEE\") == 'Sunday'",
+      "event_name": "filled",
+      "dialog_node": "handler_27_1606006103013",
+      "previous_sibling": "handler_26_1606006103013"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_28_1606006103013",
+      "context": {
+        "time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_29_1606006103013"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo certo. Vamos para o horário marcado. Os horários para atendimento são das 08:00 horas às 11:00 horas. Ou das 14:00 horas às 19:00 horas. Como ficaria melhor pra você?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_28_1606006103013",
+      "event_name": "focus",
+      "dialog_node": "handler_30_1606006103013",
+      "previous_sibling": "handler_29_1606006103013"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1606048011959",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1606048011980",
+      "previous_sibling": "handler_5_1606048011980"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1606049797316",
+      "context": {
+        "sim": "@sim"
+      },
+      "conditions": "@sim",
+      "event_name": "input",
+      "dialog_node": "handler_3_1606049797340"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_10_1606050693042",
+      "event_name": "input",
+      "dialog_node": "handler_3_1606050693086"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Digite seu feedback"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1606389407347",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1606389407404",
+      "previous_sibling": "handler_8_1606389407404"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_31_1606006103013",
+      "context": {
+        "celular": "@celular.literal"
+      },
+      "conditions": "@celular.literal",
+      "event_name": "input",
+      "dialog_node": "handler_32_1606006103013"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estamos quase finalizando. Precisarei de um número celular para notificação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_31_1606006103013",
+      "context": {
+        "celular": "<?@celular.literal?>"
+      },
+      "event_name": "focus",
+      "dialog_node": "handler_33_1606006103013",
+      "previous_sibling": "handler_32_1606006103013"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, mas não agendamos aos domingos."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1606000905759",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "$date.reformatDateTime(\"EEEEEE\") == 'Sunday'",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1606001428231",
+      "previous_sibling": "handler_10_1606001162570"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1606050693042",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1606050693086",
+      "previous_sibling": "handler_3_1606050693086"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_41_1606006211851",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_42_1606006211851"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Vou precisar de uma data. Em que dia você tem disponibilidade?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_41_1606006211851",
+      "event_name": "focus",
+      "dialog_node": "handler_43_1606006211851",
+      "previous_sibling": "handler_42_1606006211851"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, mas não agendamos aos sábados."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_41_1606006211851",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "$date.reformatDateTime(\"EEEEEE\") == 'Saturday'",
+      "event_name": "filled",
+      "dialog_node": "handler_44_1606006211851",
+      "previous_sibling": "handler_43_1606006211851"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, mas não agendamos aos domingos."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_41_1606006211851",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "$date.reformatDateTime(\"EEEEEE\") == 'Sunday'",
+      "event_name": "filled",
+      "dialog_node": "handler_45_1606006211851",
+      "previous_sibling": "handler_44_1606006211851"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_46_1606006211851",
+      "context": {
+        "time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_47_1606006211851"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo certo. Vamos para o horário marcado. Os horários para atendimento são das 08:00 horas às 11:00 horas. Ou das 14:00 horas às 19:00 horas. Como ficaria melhor pra você?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_46_1606006211851",
+      "event_name": "focus",
+      "dialog_node": "handler_48_1606006211851",
+      "previous_sibling": "handler_47_1606006211851"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_49_1606006211851",
+      "context": {
+        "celular": "@celular.literal"
+      },
+      "conditions": "@celular.literal",
+      "event_name": "input",
+      "dialog_node": "handler_50_1606006211851"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estamos quase finalizando. Precisarei de um número celular para notificação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_49_1606006211851",
+      "context": {
+        "celular": "<?@celular.literal?>"
+      },
+      "event_name": "focus",
+      "dialog_node": "handler_51_1606006211851",
+      "previous_sibling": "handler_50_1606006211851"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Vou precisar de uma data. Em que dia você tem disponibilidade?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1606000905759",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1606000905761",
+      "previous_sibling": "handler_8_1606000905761"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1606048011959",
+      "context": {
+        "sim": "@sim"
+      },
+      "conditions": "@sim",
+      "event_name": "input",
+      "dialog_node": "handler_5_1606048011980"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1606129913210",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1606129913273",
+      "previous_sibling": "handler_6_1606129913273"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1606480077933",
+      "context": {
+        "email_sintax": "@email.literal"
+      },
+      "conditions": "@email.literal",
+      "event_name": "input",
+      "dialog_node": "handler_5_1606480077933"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1606533553593",
+      "context": {
+        "celular": "@celular.literal"
+      },
+      "conditions": "@celular.literal",
+      "event_name": "input",
+      "dialog_node": "handler_5_1606533553594"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Email invalido, digite novamente:"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1605983465278",
+      "context": {
+        "email": "<?@email.literal?>"
+      },
+      "event_name": "focus",
+      "dialog_node": "handler_6_1605983465298",
+      "previous_sibling": "handler_1_1605983465298"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1606006004681",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_6_1606006004681"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1606049889699",
+      "context": {
+        "nao": "@nao"
+      },
+      "conditions": "@nao",
+      "event_name": "input",
+      "dialog_node": "handler_6_1606049889700"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_6_1606129913210",
+      "event_name": "input",
+      "dialog_node": "handler_6_1606129913273"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Email invalido, digite novamente:"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1606480077933",
+      "context": {
+        "email": "<?@email.literal?>"
+      },
+      "event_name": "focus",
+      "dialog_node": "handler_6_1606480077933",
+      "previous_sibling": "handler_5_1606480077933"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Vou precisar de uma data. Em que dia você tem disponibilidade?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1606006004681",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1606006004681",
+      "previous_sibling": "handler_6_1606006004681"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Digite sim ou não"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1606049797316",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1606049797340",
+      "previous_sibling": "handler_3_1606049797340"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Digite sim ou não"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1606049889699",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1606049889700",
+      "previous_sibling": "handler_6_1606049889700"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1606000905759",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_8_1606000905761"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1606000948454",
+      "context": {
+        "time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_8_1606000948455"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, mas não agendamos aos sábados."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1606006004681",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "$date.reformatDateTime(\"EEEEEE\") == 'Saturday'",
+      "event_name": "filled",
+      "dialog_node": "handler_8_1606006004681",
+      "previous_sibling": "handler_7_1606006004681"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1606389407347",
+      "context": {
+        "feedback": "@recebe_texto"
+      },
+      "conditions": "@recebe_texto",
+      "event_name": "input",
+      "dialog_node": "handler_8_1606389407404"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Para que número de celular podemos enviar a notificação?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1606533553593",
+      "context": {
+        "celular": "<?@celular.literal?>"
+      },
+      "event_name": "focus",
+      "dialog_node": "handler_8_1606533553594",
+      "previous_sibling": "handler_5_1606533553594"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tudo certo. Vamos para o horário marcado. Os horários para atendimento são das 08:00 horas às 11:00 horas. Ou das 14:00 horas às 19:00 horas. Como ficaria melhor pra você?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_4_1606000948454",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1606000948455",
+      "previous_sibling": "handler_8_1606000948455"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, mas não agendamos aos domingos."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1606006004681",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "$date.reformatDateTime(\"EEEEEE\") == 'Sunday'",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1606006004681",
+      "previous_sibling": "handler_8_1606006004681"
+    },
+    {
+      "type": "standard",
+      "title": "Informações sobre historico e boletos",
+      "output": {
+        "generic": [
+          {
+            "title": "Sobre o que quer saber? ",
+            "options": [
+              {
+                "label": "Histórico escolar ",
+                "value": {
+                  "input": {
+                    "text": "historico"
+                  }
+                }
+              },
+              {
+                "label": "Boletos",
+                "value": {
+                  "input": {
+                    "text": "boleto"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1604749880633",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Opção2 || #OpçãoBoletos || #historico_escolar",
+      "dialog_node": "node_10_1604921250070",
+      "previous_sibling": "node_6_1606481379699"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1604749880633",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1605568748738"
+      },
+      "conditions": "#fim",
+      "dialog_node": "node_10_1606568993275",
+      "previous_sibling": "node_8_1605326845299"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Sobre o que você deseja saber?",
+            "options": [
+              {
+                "label": "Telefone para contato com o coordenador do curso.",
+                "value": {
+                  "input": {
+                    "text": "Op 1"
+                  }
+                }
+              },
+              {
+                "label": "Agendar reunião.",
+                "value": {
+                  "input": {
+                    "text": "Op 3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1604922854346",
+      "conditions": "@curso:(gestao de ti)",
+      "dialog_node": "node_1_1605008991083",
+      "previous_sibling": "node_7_1605008813412"
+    },
+    {
+      "type": "standard",
+      "title": "Informação sobre outros contatos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Segue outras opções de contatos para alunos da Faculdade ISL:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Contatos",
+            "source": "https://cloud-object-storage-nb-cos-standard-a08.s3.us-south.cloud-object-storage.appdomain.cloud/110317055_3431177373582436_6270759111334718309_o.jpg",
+            "description": "Outros Contatos",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_6_1604749880633",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "#opção5OutrosContatos",
+      "dialog_node": "node_1_1605326649279",
+      "previous_sibling": "node_5_1605326406954"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agendamento será realizado para aluno $nome_aluno, para o dia $date, as $time horas. Uma notificação será enviada para o aluno no dia marcado, mas com algumas horas de antecedência, para o número de celular $celular, assim como para o e-mail $email_aluno."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Aguarde um instante, por favor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Agendamento realizado com sucesso!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1605008813412",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "@opsSI:op3",
+      "dialog_node": "node_1_1606006004679",
+      "previous_sibling": "node_3_1605094143675"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não entendi :("
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1604749880633",
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1606417478215",
+      "previous_sibling": "node_10_1606568993275"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não entendi sua resposta :("
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606048833384",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1606437202062",
+      "previous_sibling": "node_5_1606569866657"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não entendi a sua resposta :("
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1606438042054",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1606438042054"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1606437899326",
+      "previous_sibling": "node_3_1605874817296"
+    },
+    {
+      "type": "standard",
+      "title": "Pergunta se quer que o historico seja enviado",
+      "output": {
+        "generic": [
+          {
+            "title": "Deseja que o historico seja enviado para o seu email ($email_aluno)?",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "nao"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1606479812600",
+      "dialog_node": "node_1_1606480077931"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não entendi a sua resposta :("
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1606480077931",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1606480077931"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_14_1606480077933",
+      "previous_sibling": "node_2_1606480077933"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agendamento será realizado para aluno $nome_aluno, para o dia $date, as $time horas. Uma notificação será enviada para o aluno no dia marcado, mas com algumas horas de antecedência, para o número de celular $celular, assim como para o e-mail $email_aluno."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Aguarde um instante, por favor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Agendamento realizado com sucesso!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1605008991083",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "@opsGTI:op3",
+      "dialog_node": "node_19_1606006103012",
+      "previous_sibling": "node_4_1605094379043"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o site <a href=\"http://www.portalfaculdadeisl.com.br/\" target=\"blank\">www.portalfaculdadeisl.com.br</a> e acesse a área do aluno. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Clique em \"Esqueceu sua senha?\", para abrir os campos que deverão ser preenchidos para envio da nova senha. Você deverá informar o seu usuário, que é o seu número de matrícula, e o seu e-mail utilizado para preencher os campos de matrícula da faculdade. Conforme imagem abaixo:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://cloud-object-storage-nb-cos-standard-a08.s3.us-south.cloud-object-storage.appdomain.cloud/Esqueci%20a%20senha.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Pronto! Se você seguiu este passo-a-passo, um e-mail foi enviado com informações para nova senha."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Conseguiu acessar?",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "não"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1606481379699",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#OpçãoSenha",
+      "dialog_node": "node_2_1604921192411",
+      "previous_sibling": "node_7_1604750404337"
+    },
+    {
+      "type": "standard",
+      "title": "Informações sobre coordenação",
+      "output": {
+        "generic": [
+          {
+            "title": "Qual a seu curso?",
+            "options": [
+              {
+                "label": "Engenharia",
+                "value": {
+                  "input": {
+                    "text": "engenharia"
+                  }
+                }
+              },
+              {
+                "label": "Sistema de Informação",
+                "value": {
+                  "input": {
+                    "text": "sistema de informacao"
+                  }
+                }
+              },
+              {
+                "label": "Gestão de TI",
+                "value": {
+                  "input": {
+                    "text": "gestão de ti"
+                  }
+                }
+              },
+              {
+                "label": "Administração",
+                "value": {
+                  "input": {
+                    "text": "administracao"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1604749880633",
+      "conditions": "#opção3Coordenação",
+      "dialog_node": "node_2_1604922854346",
+      "previous_sibling": "node_10_1604921250070"
+    },
+    {
+      "type": "standard",
+      "title": "enviar feedback",
+      "parent": "node_4_1606392233235",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "text": "$feedback",
+            "email": "$email_envio"
+          },
+          "result_variable": "resultado"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1605568748738"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1606349957754"
+    },
+    {
+      "type": "standard",
+      "title": "Pergunta se quer que o boleto  seja enviado",
+      "output": {
+        "generic": [
+          {
+            "title": "Deseja que o boleto seja enviado para o seu email ($email_aluno)?",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "nao"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1604921519973",
+      "dialog_node": "node_2_1606438042054"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_1_1606480077931",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@sim || @nao",
+      "dialog_node": "node_2_1606480077933"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entre com seu email e senha institucional em <a href=\"https://web.microsoftstream.com/\" target=\"blank\">web.microsoftstream.com</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "E procure pela opção Groups na aba My content"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606481379699",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "#opçãoAulasGravadas",
+      "dialog_node": "node_3_1604921822371",
+      "previous_sibling": "node_7_1604921459259"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Sobre o que deseja saber?",
+            "options": [
+              {
+                "label": "Telefone para contato com o coordenador do curso.",
+                "value": {
+                  "input": {
+                    "text": "Op 1"
+                  }
+                }
+              },
+              {
+                "label": "Agendar reunião.",
+                "value": {
+                  "input": {
+                    "text": "Op 3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1604922854346",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@curso:engenharia",
+      "dialog_node": "node_3_1604922917273"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Sobre o que você deseja saber?",
+            "options": [
+              {
+                "label": "Telefone para contato com o coordenador do curso.",
+                "value": {
+                  "input": {
+                    "text": "Op 1"
+                  }
+                }
+              },
+              {
+                "label": "Agendar reunião.",
+                "value": {
+                  "input": {
+                    "text": "Op 3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1604922854346",
+      "conditions": "@curso:administracao",
+      "dialog_node": "node_3_1605009060589",
+      "previous_sibling": "node_1_1605008991083"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O contato do coordenador engenharia é: (XX) xxxxx-xxxx"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1604922917273",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "@opsEngenharia:op1",
+      "dialog_node": "node_3_1605093420502"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O contato do coordenador de SI é: (XX) xxxxx-xxxx"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1605008813412",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "@opsSI:op1",
+      "dialog_node": "node_3_1605094143675"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para inscrição no PRA VALER"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Documento de identificação; comprovante de residencia; comprovante de rendimentos "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para mais informações fale com um de nossos atendentes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1605326406954",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "@matricula:PRAVALER",
+      "dialog_node": "node_3_1605327658888",
+      "previous_sibling": "node_8_1605327614087"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1606438042054",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@sim || @nao",
+      "dialog_node": "node_3_1605874817296"
+    },
+    {
+      "type": "standard",
+      "title": "Feedback para o bot",
+      "output": {
+        "generic": [
+          {
+            "title": "Gostaria de deixar seu feedback?",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "nao"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {},
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1606221049617",
+      "previous_sibling": "node_8_1606048833384"
+    },
+    {
+      "type": "standard",
+      "title": "Enviar historico",
+      "output": {},
+      "parent": "node_2_1606480077933",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "text": "boleto para pagar",
+            "email": "$email_aluno"
+          },
+          "result_variable": "resultado"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "@email_alunos",
+      "dialog_node": "node_3_1606480077933",
+      "previous_sibling": "slot_9_1606480077933"
+    },
+    {
+      "type": "standard",
+      "title": "Salva matricula e senha",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606476836099",
+      "context": {
+        "matricula": "<? input.text ?>",
+        "nome_aluno": "@alunos",
+        "email_aluno": "@email_alunos"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1606563286980"
+      },
+      "conditions": "@alunos",
+      "dialog_node": "node_3_1606525431872"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1605326406954",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1605568748738"
+      },
+      "conditions": "#fim",
+      "dialog_node": "node_3_1606569601521",
+      "previous_sibling": "node_8_1605327579775"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agendamento será realizado para aluno $nome_aluno, para o dia $date, as $time horas. Uma notificação será enviada para o aluno no dia marcado, mas com algumas horas de antecedência, para o número de celular $celular, assim como para o e-mail $email_aluno."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Aguarde um instante, por favor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Agendamento realizado com sucesso!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1605009060589",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "@opsADM:op3",
+      "dialog_node": "node_37_1606006211850",
+      "previous_sibling": "node_9_1605612906579"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O contato do coordenador de GTI é: (XX) xxxxx-xxxx "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1605008991083",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "@opsGTI:op1",
+      "dialog_node": "node_4_1605094379043"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Agendamento será realizado para aluno $nome_aluno, para o dia $date, as $time horas. Uma notificação será enviada para o aluno no dia marcado, mas com algumas horas de antecedência, para o número de celular $celular, assim como para o e-mail $email_aluno."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Aguarde um instante, por favor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Agendamento realizado com sucesso!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1604922917273",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "@opsEngenharia:op3",
+      "dialog_node": "node_4_1605933129439",
+      "previous_sibling": "node_3_1605093420502"
+    },
+    {
+      "type": "standard",
+      "title": "capturar feedback",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_5_1606350316789",
+      "context": {
+        "feedback": "<? input.text ?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1606392233235"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1606563286980",
+      "context": {
+        "email_aluno": "<? input.text ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1604749880633"
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1606563952070"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1606481379699",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1605568748738"
+      },
+      "conditions": "#fim",
+      "dialog_node": "node_4_1606569208782",
+      "previous_sibling": "node_6_1605094777921"
+    },
+    {
+      "type": "standard",
+      "title": "Informações sobre matricula",
+      "output": {
+        "generic": [
+          {
+            "title": "Gostaria de saber mais sobre matrícula com:",
+            "options": [
+              {
+                "label": "FIES",
+                "value": {
+                  "input": {
+                    "text": "fies"
+                  }
+                }
+              },
+              {
+                "label": "PROUNI",
+                "value": {
+                  "input": {
+                    "text": "prouni"
+                  }
+                }
+              },
+              {
+                "label": "PRA VALER",
+                "value": {
+                  "input": {
+                    "text": "pra valer"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1604749880633",
+      "context": {},
+      "conditions": "#opção4Matricula",
+      "dialog_node": "node_5_1605326406954",
+      "digress_out": "allow_all_never_return",
+      "previous_sibling": "node_2_1604922854346"
+    },
+    {
+      "type": "standard",
+      "title": "deixar feedback",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Deixe seu feedback:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606221170024",
+      "context": {
+        "email_envio": "<? @email.literal = ('helviosiq@yahoo.com') ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1606350316789"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Até mais :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606476836099",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1605568748738"
+      },
+      "conditions": "#fim",
+      "dialog_node": "node_5_1606568720863",
+      "previous_sibling": "node_3_1606525431872"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, essa opção é inválida :("
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1604922854346",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1604922854346"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_5_1606569424923",
+      "previous_sibling": "node_8_1606569395476"
+    },
+    {
+      "type": "standard",
+      "parent": "node_8_1606048833384",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1605568748738"
+      },
+      "conditions": "#fim",
+      "dialog_node": "node_5_1606569866657",
+      "previous_sibling": "node_6_1606050672650"
+    },
+    {
+      "type": "standard",
+      "title": "Pergunta opção",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, $nome_aluno, bem-vindo ao NAR, em que posso ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "1 – Informações sobre acesso\n2 – Informação sobre documentos e boletos\n3 – Coordenação\n4 – Matricula\n5 – Outros Contatos\n6 – Conversar com atendente"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1606525431872",
+      "context": {},
+      "conditions": "@alunos",
+      "dialog_node": "node_6_1604749880633",
+      "previous_sibling": "node_6_1606563286980"
+    },
+    {
+      "type": "standard",
+      "title": "Informações sobre boletos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o site <a href=\"http://www.portalfaculdadeisl.com.br/\" target=\"blank\">www.portalfaculdadeisl.com.br</a> e acesse a área do aluno. (Caso não saiba sua senha acesse a opção 1)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Clique no menu azul ao lado esquerdo. Clique em Financeiro. Selecione a opção de baixar o boleto ou pagar com cartão."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1604921250070",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1606438042054"
+      },
+      "conditions": "#OpçãoBoletos",
+      "dialog_node": "node_6_1604921519973",
+      "previous_sibling": "response_6_1606479463950"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Segue o link para o arquivo com o calendário acadêmico do segundo semestre de 2020 (2020.2)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<a href=\"https://drive.google.com/file/d/1L8-L-7uwf3XnFbHvCmZOROJP_tnhtQWI/view\" target=\"black\">Calendário acadêmico</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606481379699",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "#opçãoCalendario",
+      "dialog_node": "node_6_1605094777921",
+      "previous_sibling": "node_7_1604922431074"
+    },
+    {
+      "type": "standard",
+      "parent": "node_8_1606048833384",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#sim || #nao",
+      "dialog_node": "node_6_1606050672650"
+    },
+    {
+      "type": "standard",
+      "parent": "node_3_1606221049617",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1605568748738"
+      },
+      "conditions": "@sim || @nao",
+      "dialog_node": "node_6_1606221170024"
+    },
+    {
+      "type": "standard",
+      "title": "Informações sobre acesso",
+      "output": {
+        "generic": [
+          {
+            "title": "Informações sobre acesso: ",
+            "options": [
+              {
+                "label": "Portal",
+                "value": {
+                  "input": {
+                    "text": "portal"
+                  }
+                }
+              },
+              {
+                "label": "Microsoft Teams",
+                "value": {
+                  "input": {
+                    "text": "teams"
+                  }
+                }
+              },
+              {
+                "label": "Aulas gravadas",
+                "value": {
+                  "input": {
+                    "text": "gravadas"
+                  }
+                }
+              },
+              {
+                "label": "Materiais da aula",
+                "value": {
+                  "input": {
+                    "text": "material"
+                  }
+                }
+              },
+              {
+                "label": "Calendário acadêmico  ",
+                "value": {
+                  "input": {
+                    "text": "calendario"
+                  }
+                }
+              },
+              {
+                "label": "Senha",
+                "value": {
+                  "input": {
+                    "text": "senha"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1604749880633",
+      "conditions": "#InformaçõesAcesso",
+      "dialog_node": "node_6_1606481379699"
+    },
+    {
+      "type": "standard",
+      "title": "Checa se é um visitante",
+      "parent": "node_3_1606525431872",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1606563286980",
+      "previous_sibling": "response_10_1606563585132"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Matricula incorreta :("
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606476836099",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1606476836099"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_6_1606565591129",
+      "previous_sibling": "node_5_1606568720863"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você acessa o site <a href=\"http://www.portalfaculdadeisl.com.br/\" target=\"blank\">www.portalfaculdadeisl.com.br</a> e informa o usuário que é a sua matrícula e a senha é a sua data de nascimento para o primeiro acesso (apenas números) no formato ddmmaaaa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Irá aparecer a tela para você trocar\na sua senha e terá acesso a\ninformações acadêmicas e\nfinanceiras."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://cloud-object-storage-nb-cos-standard-a08.s3.us-south.cloud-object-storage.appdomain.cloud/Login.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_6_1606481379699",
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "#acessoPortal",
+      "dialog_node": "node_7_1604750404337"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você precisa ter um e-mail institucional. Para ativar, você precisa baixar o aplicativo do teams em seu computador ou smartphone e informar seus dados, conforme abaixo:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://cloud-object-storage-nb-cos-standard-a08.s3.us-south.cloud-object-storage.appdomain.cloud/Login_senha.jpeg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_6_1606481379699",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "#opçãoTeams",
+      "dialog_node": "node_7_1604921459259",
+      "previous_sibling": "node_2_1604921192411"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entre com sua matricula e senha em <a>http://portalfaculdadeisl.com.br/</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Na aba de menu acesse \"Arquivos\" e selecione a matéria desejada ."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606481379699",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "#opçãoMateriaisAula",
+      "dialog_node": "node_7_1604922431074",
+      "previous_sibling": "node_3_1604921822371"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Sobre o que você deseja saber?",
+            "options": [
+              {
+                "label": "Telefone para contato com o coordenador do curso.",
+                "value": {
+                  "input": {
+                    "text": "Op 1"
+                  }
+                }
+              },
+              {
+                "label": "Agendar reunião.",
+                "value": {
+                  "input": {
+                    "text": "Op 3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1604922854346",
+      "conditions": "@curso:(sistemas de informacao)",
+      "dialog_node": "node_7_1605008813412",
+      "previous_sibling": "node_3_1604922917273"
+    },
+    {
+      "type": "standard",
+      "title": "Aleatoriedade para feedback",
+      "parent": "node_6_1606050672650",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1606303659180"
+    },
+    {
+      "type": "standard",
+      "title": "Informações sobre histórico ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o site <a href=\"http://www.portalfaculdadeisl.com.br/\" target=\"blank\">www.portalfaculdadeisl.com.br</a> e acesse a área do aluno. (Caso não saiba sua senha acesse a opção 1)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Clique no menu azul ao lado esquerdo. Clique em Requerimentos. Selecione a opção 2ª Via de Histórico Escolar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1604921250070",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1606480077931"
+      },
+      "conditions": "#historico_escolar",
+      "dialog_node": "node_7_1606479812600",
+      "previous_sibling": "node_6_1604921519973"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "response_type": "connect_to_agent",
+            "transfer_info": {
+              "target": {}
+            },
+            "agent_available": {
+              "message": "No momento não estamos online :("
+            },
+            "agent_unavailable": {
+              "message": "Desculpe, não encontramos nenhum atendente online no momento."
+            },
+            "message_to_human_agent": "No momento não estamos online :("
+          }
+        ]
+      },
+      "parent": "node_6_1604749880633",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "#opçãoConversarAtendente",
+      "dialog_node": "node_8_1605326845299",
+      "previous_sibling": "node_1_1605326649279"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Documento de comprovação de inscrição no fies; documento de identificação; cpf e caso seja menor de 18 anos o cpf do responsavel; comprovante de residencia; documentos do fiador."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para mais informações fale com um de nossos atendentes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1605326406954",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "@matricula:FIES",
+      "dialog_node": "node_8_1605327579775",
+      "previous_sibling": "node_3_1605327658888"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para inscrição no PROUNI:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Documento de identificação; comprovante de residencia; comprovante de rendimentos "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Para mais informações fale com um de nossos atendentes "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1605326406954",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "(@matricula:PROUNI)",
+      "dialog_node": "node_8_1605327614087"
+    },
+    {
+      "type": "standard",
+      "title": "Finaliza atendimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Foi um prazer te ajudar. Se precisar, pode entrar em contato novamente. 😀"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#fim",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1605568748738",
+      "previous_sibling": "node_3_1606221049617"
+    },
+    {
+      "type": "standard",
+      "title": "Enviar boleto",
+      "parent": "node_3_1605874817296",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "text": "boleto para pagar",
+            "email": "$email_aluno"
+          },
+          "result_variable": "resultado"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "@email_alunos",
+      "dialog_node": "node_8_1605983233431",
+      "previous_sibling": "slot_9_1606048011959"
+    },
+    {
+      "type": "standard",
+      "title": "Pergunta se o usuário precisa de algo mais",
+      "output": {
+        "generic": [
+          {
+            "title": "Precisa de algo mais?",
+            "options": [
+              {
+                "label": "Sim",
+                "value": {
+                  "input": {
+                    "text": "sim"
+                  }
+                }
+              },
+              {
+                "label": "Não",
+                "value": {
+                  "input": {
+                    "text": "nao"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {
+        "valorAleatorio": "<?new Random().nextInt(11)?>"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "",
+      "dialog_node": "node_8_1606048833384",
+      "previous_sibling": "node_9_1606476836099"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1604921192411",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_8_1606219366225",
+      "previous_sibling": "slot_6_1606129913210"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Matricula incorreta :("
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1606525431872",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1606476836099"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_8_1606478223390",
+      "previous_sibling": "node_6_1604749880633"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, essa opção é inválida :("
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606481379699",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1606481379699"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_8_1606496281859",
+      "previous_sibling": "node_4_1606569208782"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1604922854346",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1605568748738"
+      },
+      "conditions": "#fim",
+      "dialog_node": "node_8_1606569395476",
+      "previous_sibling": "node_3_1605009060589"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O contato do coordenador de GTI é: (XX) xxxxx-xxxx "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1605009060589",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "@opsADM:op1",
+      "dialog_node": "node_9_1605612906579"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não entendi sua resposta :("
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1606221049617",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1606221049617"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_9_1606437381133",
+      "previous_sibling": "node_6_1606221170024"
+    },
+    {
+      "type": "standard",
+      "title": "Pergunta matricula",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá! Bem-vindo(a) ao NAR. Por favor, digite sua matricula para continuar: "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#oi",
+      "dialog_node": "node_9_1606476836099"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1604921250070",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1605568748738"
+      },
+      "conditions": "#fim",
+      "dialog_node": "node_9_1606569281457",
+      "previous_sibling": "node_7_1606479812600"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, essa opção é inválida :("
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1604921250070",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1604921250070"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_9_1606569309560",
+      "previous_sibling": "node_9_1606569281457"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Desculpe, essa opção é inválida :("
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1605326406954",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1605326406954"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_9_1606569694137",
+      "previous_sibling": "node_3_1606569601521"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1604922917273",
+      "disabled": true,
+      "dialog_node": "response_10_1604923536817",
+      "previous_sibling": "node_4_1605933129439"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1606219366225",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1605326845299"
+      },
+      "conditions": "@nao",
+      "dialog_node": "response_10_1606219504273",
+      "previous_sibling": "response_8_1606219375036"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okey, muito obrigado :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1606349957754",
+      "context": {},
+      "conditions": "$resultado = {\"code\":200,\"msg\":\"250 OK , completed\",\"reason\":\"250 OK , completed\"}",
+      "dialog_node": "response_10_1606350074384"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1606525431872",
+      "context": {
+        "matricula": "<? input.text ?>",
+        "nome_aluno": "@alunos",
+        "email_aluno": "@email_alunos"
+      },
+      "disabled": true,
+      "dialog_node": "response_10_1606563585132"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1605874817296",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1605983233431"
+      },
+      "conditions": "@sim",
+      "dialog_node": "response_1_1606048053931"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1606221170024",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1606350316789"
+      },
+      "conditions": "@sim",
+      "dialog_node": "response_1_1606221208741",
+      "previous_sibling": "node_5_1606350316789"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_2_1606480077933",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1606480077933"
+      },
+      "conditions": "@sim",
+      "dialog_node": "response_12_1606480077933"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okey"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1606480077933",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "@nao",
+      "dialog_node": "response_13_1606480077933",
+      "previous_sibling": "response_12_1606480077933"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você acessa o site\nportalfaculdadeisl.com.br e informa\no usuário que é a sua matrícula e a\nsenha é a sua data de nascimento\npara o primeiro acesso (apenas\nnúmeros) no formato ddmmaaaa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Irá aparecer a tela para você trocar\na sua senha e terá acesso a\ninformações acadêmicas e\nfinanceiras."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1604750404337",
+      "disabled": true,
+      "conditions": "#Opção1",
+      "dialog_node": "response_3_1604752181840"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606050672650",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1606303659180"
+      },
+      "conditions": "#nao",
+      "dialog_node": "response_4_1606051238364",
+      "previous_sibling": "response_5_1606051027716"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Então até a proxima"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606221170024",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1605568748738"
+      },
+      "conditions": "@nao",
+      "dialog_node": "response_4_1606221250094",
+      "previous_sibling": "response_1_1606221208741"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1606050672650",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1604749880633"
+      },
+      "conditions": "#sim",
+      "dialog_node": "response_5_1606051027716",
+      "previous_sibling": "node_7_1606303659180"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1606303659180",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1605568748738"
+      },
+      "conditions": "$valorAleatorio <= 4",
+      "dialog_node": "response_5_1606303785173",
+      "previous_sibling": "response_9_1606303731551"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Não foi"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1606349957754",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1606349988456",
+      "previous_sibling": "response_10_1606350074384"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Precisa de algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606048833384",
+      "disabled": true,
+      "dialog_node": "response_6_1606049360875",
+      "previous_sibling": "slot_8_1606049889699"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Sobre o que quer saber? ",
+            "options": [
+              {
+                "label": "Histórico escolar ",
+                "value": {
+                  "input": {
+                    "text": "historico"
+                  }
+                }
+              },
+              {
+                "label": "Boletos",
+                "value": {
+                  "input": {
+                    "text": "boleto"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1604921250070",
+      "disabled": true,
+      "dialog_node": "response_6_1606479463950"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Boleto enviado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1605983233431",
+      "conditions": "$resultado = {\"code\":200,\"msg\":\"250 OK , completed\",\"reason\":\"250 OK , completed\"}",
+      "dialog_node": "response_7_1605983464663",
+      "previous_sibling": "slot_6_1605983465278"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Email não enviado"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1605983233431",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1605983467209",
+      "previous_sibling": "response_7_1605983464663"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okey"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1605874817296",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "@nao",
+      "dialog_node": "response_7_1606048094530",
+      "previous_sibling": "response_1_1606048053931"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acesse o site <a href=\"http://www.portalfaculdadeisl.com.br/\" target=\"blank\">www.portalfaculdadeisl.com.br</a> e acesse a área do aluno. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Clique em \"Esqueceu sua senha?\", para abrir os campos que deverão ser preenchidos para envio da nova senha. Você deverá informar o seu usuário, que é o seu número de matrícula, e o seu e-mail utilizado para preencher os campos de matrícula da faculdade. Conforme imagem abaixo:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://cloud-object-storage-nb-cos-standard-a08.s3.us-south.cloud-object-storage.appdomain.cloud/Esqueci%20a%20senha.png",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Pronto! Se você seguiu este passo-a-passo, um e-mail foi enviado com informações para nova senha."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Não conseguiu acessar? ",
+            "options": [
+              {
+                "label": "1 - Entrar em contato com atendente humano",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "2 - Retornar ao menu.",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1604921192411",
+      "disabled": true,
+      "dialog_node": "response_7_1606219153734"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Histórico escolar enviado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1606480077933",
+      "conditions": "$resultado = {\"code\":200,\"msg\":\"250 OK , completed\",\"reason\":\"250 OK , completed\"}",
+      "dialog_node": "response_7_1606480077933",
+      "previous_sibling": "slot_4_1606480077933"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite seu email:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606563286980",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1606563952070"
+      },
+      "conditions": "@alunos:Visitante",
+      "dialog_node": "response_7_1606563745505",
+      "previous_sibling": "node_4_1606563952070"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1606563286980",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1604749880633"
+      },
+      "conditions": "@alunos != \"Visitante\"",
+      "dialog_node": "response_7_1606563840587",
+      "previous_sibling": "response_7_1606563745505"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okey"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1606219366225",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1606048833384"
+      },
+      "conditions": "@sim",
+      "dialog_node": "response_8_1606219375036"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Email não enviado"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1606480077933",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1606480077933",
+      "previous_sibling": "response_7_1606480077933"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1606303659180",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1606221049617"
+      },
+      "conditions": "$valorAleatorio >= 5",
+      "dialog_node": "response_9_1606303731551"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1606006004679",
+      "variable": "$time",
+      "dialog_node": "slot_10_1606006004681",
+      "previous_sibling": "slot_5_1606006004681"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1606050672650",
+      "dialog_node": "slot_10_1606050693042",
+      "previous_sibling": "response_4_1606051238364"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1606006004679",
+      "variable": "$celular",
+      "dialog_node": "slot_13_1606006004681",
+      "previous_sibling": "slot_10_1606006004681"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_19_1606006103012",
+      "variable": "$date",
+      "dialog_node": "slot_23_1606006103013"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_19_1606006103012",
+      "variable": "$time",
+      "dialog_node": "slot_28_1606006103013",
+      "previous_sibling": "slot_23_1606006103013"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_19_1606006103012",
+      "variable": "$celular",
+      "dialog_node": "slot_31_1606006103013",
+      "previous_sibling": "slot_28_1606006103013"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1606006211850",
+      "variable": "$date",
+      "dialog_node": "slot_41_1606006211851"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1605933129439",
+      "variable": "$time",
+      "dialog_node": "slot_4_1606000948454",
+      "previous_sibling": "slot_5_1606000905759"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1606480077933",
+      "variable": "$email_sintax",
+      "dialog_node": "slot_4_1606480077933"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1605933129439",
+      "variable": "$celular",
+      "dialog_node": "slot_4_1606533553593",
+      "previous_sibling": "slot_4_1606000948454"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1606006211850",
+      "variable": "$time",
+      "dialog_node": "slot_46_1606006211851",
+      "previous_sibling": "slot_41_1606006211851"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1606006211850",
+      "variable": "$celular",
+      "dialog_node": "slot_49_1606006211851",
+      "previous_sibling": "slot_46_1606006211851"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1605933129439",
+      "variable": "$date",
+      "dialog_node": "slot_5_1606000905759"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1606006004679",
+      "variable": "$date",
+      "dialog_node": "slot_5_1606006004681"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1605983233431",
+      "variable": "$email_sintax",
+      "dialog_node": "slot_6_1605983465278"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1604921192411",
+      "dialog_node": "slot_6_1606129913210",
+      "previous_sibling": "response_7_1606219153734"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1606048833384",
+      "variable": "$nao",
+      "dialog_node": "slot_8_1606049889699",
+      "previous_sibling": "slot_9_1606049797316"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1605874817296",
+      "variable": "$sim",
+      "dialog_node": "slot_9_1606048011959",
+      "previous_sibling": "response_7_1606048094530"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1606048833384",
+      "variable": "$sim",
+      "dialog_node": "slot_9_1606049797316",
+      "previous_sibling": "node_1_1606437202062"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1606350316789",
+      "variable": "$feedback",
+      "dialog_node": "slot_9_1606389407347",
+      "previous_sibling": "node_4_1606392233235"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1606480077933",
+      "variable": "$sim",
+      "dialog_node": "slot_9_1606480077933",
+      "previous_sibling": "response_13_1606480077933"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "11:00"
+    },
+    {
+      "text": "23/11"
+    },
+    {
+      "text": "98 99748-7384"
+    },
+    {
+      "text": "agendar"
+    }
+  ],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Atendimento ao aluno",
+  "language": "pt-br",
+  "description": "Uma skill para o bot se comunicar com o aluno"
+}
