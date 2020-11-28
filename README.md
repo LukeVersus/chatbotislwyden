@@ -24,3 +24,7 @@ Quarta escolha de atendimento:
 
 Para demonstração, acessar o link abaixo, colocar como matrícula o número 100 e cadastrar um e-mail.
 https://cutt.ly/Phhp9Ik
+<img src="/Public/Images/WhatsApp Image 2020-11-28 at 11.02.55.jpeg" alt="QR">
+
+Tecnologias:
+- IBM Watson Assistant
