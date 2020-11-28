@@ -30,3 +30,4 @@ Tecnologias:
 - IBM Watson Assistant
 - IBM Cloud
 - Webhook
+- NodeJs
