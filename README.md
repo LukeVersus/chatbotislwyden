@@ -28,7 +28,7 @@ Quarta escolha de atendimento.
 </br>
 <img src="/Public/Images/Imagem6.png" alt="4">
 
-Para demonstração, acessar o link abaixo, colocar como matrícula o número 100 e cadastrar um e-mail.
+Para demonstração, acessar o link abaixo, digitar uma saudação (Exemplo: oi), colocar como matrícula o número 100 e cadastrar um e-mail.
 </br>
 https://cutt.ly/Phhp9Ik
 </br>
