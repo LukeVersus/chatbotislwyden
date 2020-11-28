@@ -28,3 +28,5 @@ https://cutt.ly/Phhp9Ik
 
 Tecnologias:
 - IBM Watson Assistant
+- IBM Cloud
+- Webhook
